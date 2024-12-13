@@ -63,9 +63,7 @@ def minimax(board, depth, is_maximizing):
         return min_eval
 
 def find_best_move(board, depth):
-    """
-    Menemukan langkah terbaik untuk AI.
-    """
+   
     best_move = None
     max_eval = float('-inf')
     for move in board.legal_moves:
